@@ -1,0 +1,46 @@
+.team-card {
+    position: relative;
+    height: 412px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.team-overlay {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 10px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid black;
+}
+
+.send-btn {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    line-height: 1.4;
+}
