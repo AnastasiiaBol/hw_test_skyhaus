@@ -11,10 +11,14 @@
 .team-overlay {
     position: absolute;
     bottom: 10px;
-    width: 100%;
+    width: 240px;
     background: rgba(255, 255, 255, 1);
     text-align: center;
     padding: 10px;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+    margin: auto;
 }
 
 .form-control {
@@ -42,5 +46,9 @@
 }
 
 h5 {
-    line-height: 1.4;
+    line-height: 49px;
+}
+
+.col-lg-4{
+    min-height: 100%
 }
